@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 940px;
+}
+
+/* nav */
+
+.container nav {
+    width: 1440px;
+    height: 146px;
+}
+
+nav .navicon {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 60px;
+    top: 60px;
+    cursor: pointer;
+}
+
+.navicon .eclipse1 {
+    position: absolute;
+    border-radius: 50%;
+    background: #202020;
+    width: 10px;
+    height: 10px;
+}
+
+.navicon .eclipse2 {
+    position: absolute;
+    border-radius: 50%;
+    background: #202020;
+    width: 10px;
+    height: 10px;
+    margin-left: 16px;
+}
+
+.navicon .eclipse3 {
+    position: absolute;
+    border-radius: 50%;
+    background: #202020;
+    width: 10px;
+    height: 10px;
+    margin-top: 16px;
+}
+
+.navicon .eclipse4 {
+    position: absolute;
+    border-radius: 50%;
+    background: #202020;
+    width: 10px;
+    height: 10px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+/* textebi */
+
+.navicon .text{
+    position: absolute;
+    display: flex;
+    width: 808px;
+    height: 28px;
+    left: 212px;
+}
+
+.text1 {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #C08D5D;
+    cursor: pointer;
+}
+
+.text2 {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.text3 {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.text4 {
+    position: relative;
+    left: 280px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.text5 {
+    position: relative;
+    left: 330px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.text6 {
+    position: relative;
+    left: 380px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.logo {
+    position: relative;
+    bottom: 17px;
+    margin-left: 615px;
+}
+
+
+/* rectangle */
+
+.rectangle {
+    width: 1320px;
+    height: 634px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.rectangle .content {
+    width: 535px;
+    height: 472px;
+    margin-left: 120px;
+    margin-top: 81px;
+}
+
+.content .group2 {
+    width: 535px;
+    height: 336px;
+    display: flex;
+}
+
+.group2 .group2text {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 67px;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+    margin-top: 15px;
+}
+
+.logo1 {
+    position: absolute;
+    width: 45.21px;
+    height: 69.04px;
+    left: 318px;
+    top: 270px;
+}
+
+.group2 .group2text1 {
+    position: absolute;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 93px;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+    margin-top: 65px;
+}
+
+.vector{    
+    position: absolute;
+    width: 165px;
+    height: 9.03px;
+    left: 184px;
+    top: 460px;
+}
+
+.group2 .group2text2 {
+    position: absolute;
+    width: 535px;
+    height: 108px;
+    left: 180px;
+    top: 495px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 147.6%;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+}
+
+/* button */
+
+.btn {
+    border: 2px solid #C08D5D;
+    width: 197px;
+    height: 64px;
+    position: absolute;
+    width: 197px;
+    height: 64px;
+    left: 180px;
+    top: 675px;
+    background: #C08D5D;
+}
+
+
+.btn .rectangle3 {
+    background: #FFFAF3;
+    width: 138px;
+    height: 64px;
+}
+
+.vector2 {
+    position: absolute;
+    width: 17px;
+    height: 5.5px;
+    margin-left: 159px;
+    bottom: 30px;
+}
+
+.rectangle3text {
+    position: absolute;
+    font-family: 'Avenir';
+    margin-left: 15px;
+    margin-top: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 147.6%;
+    letter-spacing: 0.06em;
+    color: #3F4042;
+}
+
+/* images */
+
+.images1 {
+position: absolute;
+width: 660px;
+height: 878px;
+top: -63px;
+margin-left: 455px;
+}
